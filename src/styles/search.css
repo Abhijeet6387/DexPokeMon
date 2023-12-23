@@ -1,0 +1,89 @@
+.search-main {
+  width: 100%;
+  padding: 24px 0 4px 0;
+}
+
+.search {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  background-color: transparent;
+  outline: none;
+  border: 1.4px solid #303030;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-hover-color);
+  padding: 16px 10px;
+  width: 92%;
+  transition: all 0.3s ease-in;
+}
+
+form input:active,
+input:focus {
+  border-color: var(--text-hover-color);
+}
+
+form button {
+  outline: none;
+  background-color: #242424;
+  width: 10%;
+  color: var(--text-normal-color);
+  border: none;
+  border: 1.4px solid #303030;
+  border-left: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+form button:hover {
+  background-color: #303030;
+  color: var(--text-hover-color);
+}
+
+.filter-section select {
+  background-color: #242424;
+  outline: none;
+  border: 1.4px solid #242424;
+  padding: 20px;
+  margin-left: 10px;
+  color: var(--text-normal-color);
+  transition: all 0.3s ease-in;
+}
+.filter-section select:hover {
+  background-color: #303030;
+  color: var(--text-hover-color);
+}
+
+.search-example {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 8px 0;
+}
+
+.search-example a p {
+  font-size: 14px;
+  color: var(--text-normal-color);
+  transition: all 0.3s ease-in;
+}
+
+.search-example p#eg {
+  cursor: default;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--text-normal-color);
+}
+
+.search-example p:hover {
+  color: var(--text-hover-color);
+  text-decoration: underline;
+}
