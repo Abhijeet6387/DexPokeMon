@@ -19,7 +19,7 @@ const Header = () => {
         </Link>
 
         <div className="header-right">
-          <a target="_blank" href="https://github.com/Abhijeet6387">
+          <a target="_blank" href="https://github.com/Abhijeet6387/DexPokeMon">
             Github/Repository
           </a>
         </div>
